@@ -76364,7 +76364,7 @@ Y.app.prototype={
 $0(){T.Yv("https://github.com/ugiete")},
 $S:2}
 N.pV.prototype={
-a2y(a){var s=this,r=A.azF("ws://200.137.68.70:8000/ws/status/"+a+"/")
+a2y(a){var s=this,r=A.azF("ws://ugiete.com:8000/ws/status/"+a+"/")
 s.a=r
 r=r.f.gDi().go6()
 s.b=new P.ew(r,H.m(r).h("ew<1>"))
@@ -76410,7 +76410,7 @@ if(s!=null)s.gpf().a.W(0,"status")
 return r.c}else throw H.d(P.de(null))},
 $S:455}
 N.rs.prototype={
-a0V(a,b){var s,r,q,p,o=this,n=A.azF("ws://200.137.68.70:8000/ws/monitor/"+b+"/")
+a0V(a,b){var s,r,q,p,o=this,n=A.azF("ws://ugiete.com:8000/ws/monitor/"+b+"/")
 o.c=n
 n=n.f.gDi().go6()
 o.d=new P.ew(n,H.m(n).h("ew<1>"))
@@ -76473,7 +76473,7 @@ var $async$wl=P.N(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return P.Z(G.Yw(P.e7("http://200.137.68.70:8000/auth/signin/",0,null),C.Z.fK(P.ap(["username",a,"password",b],k,k)),P.ap(["content-type","application/json"],k,k)),$async$wl)
+return P.Z(G.Yw(P.e7("http://ugiete.com:8000/auth/signin/",0,null),C.Z.fK(P.ap(["username",a,"password",b],k,k)),P.ap(["content-type","application/json"],k,k)),$async$wl)
 case 7:l=d
 if(l.b===200){k=l
 k=C.Z.ie(0,B.m4(U.lZ(k.e).c.a.i(0,"charset")).dl(0,k.x),null)
@@ -76524,7 +76524,7 @@ return P.Z(j.wa(),$async$eh)
 case 6:o=b
 j=t.N
 s=7
-return P.Z(G.Yw(P.e7("http://200.137.68.70:8000/auth/refresh/",0,null),C.Z.fK(P.ap(["refresh",o],j,j)),P.ap(["content-type","application/json"],j,j)),$async$eh)
+return P.Z(G.Yw(P.e7("http://ugiete.com:8000/auth/refresh/",0,null),C.Z.fK(P.ap(["refresh",o],j,j)),P.ap(["content-type","application/json"],j,j)),$async$eh)
 case 7:n=b
 if(n.b===200){j=C.Z.ie(0,B.m4(U.lZ(n.e).c.a.i(0,"charset")).dl(0,n.x),null)
 m=J.ar(j)
@@ -76551,7 +76551,7 @@ var $async$wm=P.N(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 l=t.N
 s=7
-return P.Z(G.Yw(P.e7("http://200.137.68.70:8000/auth/signup/",0,null),C.Z.fK(a.fT()),P.ap(["content-type","application/json"],l,l)),$async$wm)
+return P.Z(G.Yw(P.e7("http://ugiete.com:8000/auth/signup/",0,null),C.Z.fK(a.fT()),P.ap(["content-type","application/json"],l,l)),$async$wm)
 case 7:m=c
 if(m.b===201)l="ok"
 else{l=m
@@ -76580,7 +76580,7 @@ anh(a){var s=0,r=P.S(t.H),q=this,p,o,n
 var $async$rj=P.N(function(b,c){if(b===1)return P.P(c,r)
 while(true)switch(s){case 0:o=t.N
 s=2
-return P.Z(G.awO(P.e7("http://200.137.68.70:8000/auth/groups/invites/",0,null),null,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],o,o)),$async$rj)
+return P.Z(G.awO(P.e7("http://ugiete.com:8000/auth/groups/invites/",0,null),null,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],o,o)),$async$rj)
 case 2:n=c
 o=n.b
 if(o===202){p=C.Z.ie(0,B.m4(U.lZ(n.e).c.a.i(0,"charset")).dl(0,n.x),null)
@@ -76593,7 +76593,7 @@ aoD(a){var s=0,r=P.S(t.H),q=this,p
 var $async$AF=P.N(function(b,c){if(b===1)return P.P(c,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return P.Z(G.awO(P.e7("http://200.137.68.70:8000/auth/profile/",0,null),C.Z.fK(a),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$AF)
+return P.Z(G.awO(P.e7("http://ugiete.com:8000/auth/profile/",0,null),C.Z.fK(a),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$AF)
 case 2:p=c.b
 if(p===202)q.eh()
 else if(p===401&&!0){q.eh()
@@ -76605,7 +76605,7 @@ alz(a){var s=0,r=P.S(t.lx),q,p=this,o,n,m,l,k,j,i,h,g,f
 var $async$va=P.N(function(b,c){if(b===1)return P.P(c,r)
 while(true)switch(s){case 0:h=t.N
 s=3
-return P.Z(G.asy(P.e7("http://200.137.68.70:8000/auth/groups/members/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(p.b.b)],h,h)),$async$va)
+return P.Z(G.asy(P.e7("http://ugiete.com:8000/auth/groups/members/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(p.b.b)],h,h)),$async$va)
 case 3:g=c
 f=H.c([],t.MQ)
 h=g.b
@@ -76630,7 +76630,7 @@ anw(a,b){var s=0,r=P.S(t.H),q=this,p
 var $async$vH=P.N(function(c,d){if(c===1)return P.P(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return P.Z(G.ax_(P.e7("http://200.137.68.70:8000"+("/auth/groups/members/"+a+"/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$vH)
+return P.Z(G.ax_(P.e7("http://ugiete.com:8000"+("/auth/groups/members/"+a+"/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$vH)
 case 2:p=d.b
 if(p===200)q.b3()
 else if(p===401&&b){q.eh()
@@ -76642,7 +76642,7 @@ an0(a,b){var s=0,r=P.S(t.H),q=this,p
 var $async$vy=P.N(function(c,d){if(c===1)return P.P(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return P.Z(G.awO(P.e7("http://200.137.68.70:8000"+("/auth/groups/members/"+a+"/"),0,null),null,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$vy)
+return P.Z(G.awO(P.e7("http://ugiete.com:8000"+("/auth/groups/members/"+a+"/"),0,null),null,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$vy)
 case 2:p=d.b
 if(p===200)q.b3()
 else if(p===401&&b){q.eh()
@@ -76654,7 +76654,7 @@ alr(a){var s=0,r=P.S(t.H),q=this,p
 var $async$v8=P.N(function(b,c){if(b===1)return P.P(c,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return P.Z(G.ax_(P.e7("http://200.137.68.70:8000/auth/groups/leave/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$v8)
+return P.Z(G.ax_(P.e7("http://ugiete.com:8000/auth/groups/leave/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(q.b.b)],p,p)),$async$v8)
 case 2:p=c.b
 if(p===200)q.pe()
 else if(p===401&&a){q.eh()
@@ -76668,7 +76668,7 @@ s=p}while(true)switch(s){case 0:h=C.Z.fK(a.fT())
 p=4
 j=t.N
 s=7
-return P.Z(G.Yw(P.e7("http://200.137.68.70:8000/api/campi/",0,null),h,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],j,j)),$async$ul)
+return P.Z(G.Yw(P.e7("http://ugiete.com:8000/api/campi/",0,null),h,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],j,j)),$async$ul)
 case 7:l=d
 if(l.b===201){q="ok"
 s=1
@@ -76704,7 +76704,7 @@ alx(a){var s=0,r=P.S(t.Di),q,p=this,o,n,m,l,k
 var $async$v9=P.N(function(b,c){if(b===1)return P.P(c,r)
 while(true)switch(s){case 0:m=t.N
 s=3
-return P.Z(G.asy(P.e7("http://200.137.68.70:8000/api/campi/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(p.b.b)],m,m)),$async$v9)
+return P.Z(G.asy(P.e7("http://ugiete.com:8000/api/campi/",0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(p.b.b)],m,m)),$async$v9)
 case 3:l=c
 k=H.c([],t.Wf)
 m=l.b
@@ -76773,7 +76773,7 @@ s=p}while(true)switch(s){case 0:h=C.Z.fK(a.fT())
 p=4
 j=t.N
 s=7
-return P.Z(G.Yw(P.e7("http://200.137.68.70:8000/api/devices/",0,null),h,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],j,j)),$async$um)
+return P.Z(G.Yw(P.e7("http://ugiete.com:8000/api/devices/",0,null),h,P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],j,j)),$async$um)
 case 7:l=d
 if(l.b===201){q="ok"
 s=1
@@ -76810,7 +76810,7 @@ var $async$rz=P.N(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return P.Z(G.asy(P.e7("http://200.137.68.70:8000"+("/api/devices/"+a+"/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],k,k)),$async$rz)
+return P.Z(G.asy(P.e7("http://ugiete.com:8000"+("/api/devices/"+a+"/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],k,k)),$async$rz)
 case 7:l=d
 if(l.b===200){k=l
 k=Z.aKV(a,C.Z.ie(0,B.m4(U.lZ(k.e).c.a.i(0,"charset")).dl(0,k.x),null))
@@ -76845,7 +76845,7 @@ var $async$rA=P.N(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return P.Z(G.asy(P.e7("http://200.137.68.70:8000"+("/api/devices/"+a+"/settings/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],k,k)),$async$rA)
+return P.Z(G.asy(P.e7("http://ugiete.com:8000"+("/api/devices/"+a+"/settings/"),0,null),P.ap(["content-type","application/json","Authorization","Bearer "+H.e(m.b.b)],k,k)),$async$rA)
 case 7:l=d
 if(l.b===200){k=l
 k=Z.aKU(C.Z.ie(0,B.m4(U.lZ(k.e).c.a.i(0,"charset")).dl(0,k.x),null))
